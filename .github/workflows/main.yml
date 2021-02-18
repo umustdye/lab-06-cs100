@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-      branches: [ main, umustdye/ci_setup, Sebastian-Hall/failing_tests, umustdye/passing_tests ]
+      branches: [ main, umustdye/ci_setup, Sebastian-Hall/failing_tests, umustdye/passing_tests, Sebastian-Hall/create_tests ]
   pull_request:
     branches: [ main ]
 
