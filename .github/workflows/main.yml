@@ -36,7 +36,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          kk
 
       # Makes unit test executable
       - name: Make tests
@@ -46,5 +45,4 @@ jobs:
 
       # Run tests
       - name: Run tests
-        run: |
-            ./test
+        run: ./test
