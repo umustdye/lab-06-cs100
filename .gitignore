@@ -1,3 +1,10 @@
 *~
 *.o
 *.a
+bin
+CMakeFiles
+lib
+test
+CMakeCache.txt
+cmake_install.cmake
+Makefile
