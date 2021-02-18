@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main, umustdye/ci_setup ]
+      branches: [ main, umustdye/ci_setup, Sebastian-Hall/ci_test ]
   pull_request:
     branches: [ main ]
 
@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Test yml actions
+        run: |
+            echo test one
+            echo test two
